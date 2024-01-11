@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    color: #fff;
+    animation: myAnimation 30s infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        background-color: rgba(247, 26, 26, 0.836);
+    }
+
+    10% {
+        background-color: rgba(255, 51, 0, 0.719);
+    }
+
+    20% {
+        background-color: rgb(255, 145, 0);
+    }
+
+    30% {
+        background-color: rgb(251, 255, 0);
+    }
+
+    40% {
+        background-color: rgba(168, 230, 70, 0.726);
+    }
+
+    50% {
+        background-color: rgba(0, 255, 106, 0.555);
+    }
+
+    60% {
+        background-color: rgba(100, 223, 216, 0.808);
+    }
+
+    70% {
+        background-color: rgba(0, 140, 255, 0.822);
+    }
+
+    80% {
+        background-color: rgba(47, 0, 255, 0.788);
+    }
+
+    90% {
+        background-color: rgba(247, 0, 255, 0.842);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 13, 0.829);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1.8rem 0rem;
+}
+
+.container h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container h1 span {
+    text-decoration: underline;
+    color: #00ff88;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 15rem;
+    margin: 3rem 0rem;
+    background: #257f64;
+    color: #000000;
+    border-radius: 9px;
+}
+
+.display input {
+    border: 0;
+    border-radius: 3px;
+    size: 4rem;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+
+.display button {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    background: rgba(171, 121, 218, 0.61);
+    font-weight: bold;
+}
+
+.container #btn {
+    border: 0;
+    border-radius: 9px;
+    outline: 0;
+    padding: 1rem 1rem;
+    width: 15rem;
+    background: #019c9f;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 13px 5px rgba(35, 95, 101, 0.757);
+    transition: .3s;
+}
+
+.container button:active {
+    transform: scale(0.95);
+}
